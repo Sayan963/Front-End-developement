@@ -1,0 +1,145 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'poppins',sans-serif;
+   box-sizing: border-box;
+
+}
+
+
+
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px 8% ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0px;
+    outline: 0px;
+    background-color: red;
+    color: white;
+   
+    font-size: 12px;
+    padding: 7px 20px;
+    margin-left: 10px;
+    
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+.languagebtn{
+    display: inline-flex;
+    background: transparent;
+    border: 1px solid white;
+    text-align: center;
+}
+.languagebtn img{
+    width: 10px;
+    margin-left: 5px;
+    padding: 4px 0;
+}
+.subbtn{
+    border: 0px;
+    outline: 0px;
+    background-color: red;
+    color: white;
+   
+    font-size: 30px;
+    padding: 7px 25px;
+    margin-left: 10px;
+    
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.text{
+
+    text-align: center;
+    margin-top: 170px;
+}
+.text h1{
+    font-size: 50px;
+}
+.text h2{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 35px;
+}
+.text h3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.email{
+    margin-top: 30px;
+    
+}
+.email input{
+    flex: 1;
+    border: 0;
+    margin-left: 10px;
+    padding: 7px 70px;
+    font-size: 30px;
+    background: transparent;
+    border: 1px solid white;
+    
+}
+.feature{
+
+    padding: 50px 12%;
+    font-size: 22px;
+    
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.border{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(91, 89, 89);
+}
+.feature-img{
+   flex-basis: 50%;
+   margin-bottom: 20px;
+   
+}
+.textclm{
+    flex-basis: 50%;
+    margin-bottom: 20px;}
+
+.feature-img img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+.faq{
+    font-size: 44px;
+    padding: 0 150px;
+    margin-left: 170px;
+    align-content: center;
+    font-style:bold;
+}
